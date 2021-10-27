@@ -22,7 +22,16 @@ body{
   padding : 0px;
   margin : 0px;
 }
-
+a{
+  color: #34495e;
+  text-decoration : none;
+}
+a.router-link-exact-active{
+  text-decoration : underline;
+}
+a:hover{
+  color : #42b883;
+}
 /* router transition */
 .page-enter-active, .page-leave-active {
   transition: opacity .5s;
