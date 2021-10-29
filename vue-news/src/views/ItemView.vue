@@ -17,7 +17,7 @@
       <div v-html="fetchedItem.content">
         
       </div>
-      </section>
+    </section>
 
   </div>
 </template>
